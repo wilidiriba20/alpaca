@@ -7,7 +7,7 @@
 }
 h1,
 h2 {
- color: #0a66c2;
+  color: #0a66c2;
   margin-bottom: 20px;
   font-family: "Sekuya", sans-serif;
 }
@@ -46,10 +46,6 @@ h2 {
   gap: 10px;
 }
 
-.buttons button {
-  width: 150px;
-}
-
 /* right */
 .controls {
   display: flex;
@@ -85,7 +81,7 @@ button {
   min-height: 40px;
   padding: 0 20px;
   transition: 0.2s ease;
-  width: 130px;
+  width: 165px;
 }
 
 button:hover {
