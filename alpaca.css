@@ -92,14 +92,17 @@ button:hover {
 button:active {
   background-color: #09223b;
 }
-.eye {
+.eyes {
   z-index: 7;
 }
 .hair {
   z-index: 6;
 }
+.accessories {
+  z-index: 8;
+}
 .ears {
-  z-index: 5;
+  z-index: 4;
 }
 .nose {
   z-index: 4;
