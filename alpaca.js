@@ -39,7 +39,7 @@ let buttons = Array.from(document.getElementsByTagName("button"));
 
 function image_change(type, item) {
   let image = document.getElementsByClassName(type)[0];
-  image.src = `../alpaca/${type}/${item}.png`;
+  image.src = `alpaca/${type}/${item}.png`;
 }
 
 function buttonscreate(type) {
