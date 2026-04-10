@@ -5,6 +5,9 @@
 
   font-style: normal;
 }
+h1 {
+  margin: 17px;
+}
 h1,
 h2 {
   color: #0a66c2;
