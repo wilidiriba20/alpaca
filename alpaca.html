@@ -3,38 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alpaca</title>
+    <title>Alpaca Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sekuya&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="alpaca.css" />
   </head>
+
   <body>
+    <h1>Alpaca Generator</h1>
+
     <div class="container">
-        <!-- alpaca image generated -->
-      <div class="alpaca">
-        <div class="head">
-            <div class="hair">
-                
-            </div>
-            <div class="face">
-                <div class="eye1"></div>
-                <div class="ears"></div>
-                <div class="nose"></div>
-                <div class="mouth"></div>
-            </div>
-            <div class="nake"></div>
-            <div class="leg"></div>
+      <!-- LEFT SIDE -->
+      <div class="alpaca-box">
+        <div class="alpaca-image">
+          <img src="../alpaca/eyes/default.png" class="layer eye" />
+          <img src="../alpaca/hair/default.png" class="layer hair" />
+          <img src="../alpaca/ears/default.png" class="layer ears" />
+          <img src="../alpaca/nose/nose.png" class="layer nose" />
+          <img src="../alpaca/mouth/default.png" class="layer mouth" />
+          <img src="../alpaca/neck/default.png" class="layer neck" />
+          <img src="../alpaca/leg/default.png" class="layer leg" />
         </div>
-        <div class="end">
-          <div class="butt1">
-        
-            <button type="button">Random</button>
-          </div>
-          <div class="butt2">
-            <button type="button">Download</button>
-          </div>
+
+        <div class="buttons">
+          <button id="random">Random</button>
+          <button id="download">Download</button>
         </div>
       </div>
-       <!-- buttons for change-->
-      <div class="change"></div>
+
+      <!-- RIGHT SIDE -->
+      <div class="controls">
+        <div class="category">
+          <h2>ACCESSORIZE THE ALPACA'S</h2>
+
+          <div class="button-group">
+            <button id="hair">Hair</button>
+            <button id="ears">Ears</button>
+            <button id="eye">Eye</button>
+            <button id="nose">Nose</button>
+            <button id="mouth">Mouth</button>
+            <button id="neck">Neck</button>
+            <button id="leg">Leg</button>
+            <button id="accessories">Accessories</button>
+            <button id="background">Background</button>
+          </div>
+        </div>
+
+        <div class="style">
+          <h2>STYLE</h2>
+        </div>
+      </div>
     </div>
   </body>
 </html>
